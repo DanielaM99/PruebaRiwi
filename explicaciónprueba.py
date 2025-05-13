@@ -197,7 +197,7 @@ def eliminar_producto():
     Permite al usuario eliminar un producto del inventario. Solicita el nombre del producto
     a eliminar y, si se encuentra, lo elimina de la lista 'inventario'.
     """
-    nombre_a_eliminar = input("Ingrese el nombre del producto que desea eliminar: ").strip()
+    nombre_a_eliminar = input("Ingrese el nombre del producto que desea eliminar: ").strip().lower()
     # Se solicita el nombre del producto a eliminar y se eliminan los espacios.
 
     indice_a_eliminar = -1
